@@ -13,19 +13,19 @@ Codzienną komunikację i podział pracy będziemy wykonywać na serwerze Discor
 ## Skład zespołu i podział ról
 Ze względu na 4-osobowy skład zespołu i wysoki stopień skomplikowania procesu budowania modułu, podzieliliśmy zadania w następujący sposób:
 
-1. Adam Micun - Inżynier DevOps / CI/CD Architect
+1. [Adam Micun](https://github.com/Adamono) - Inżynier DevOps / CI/CD Architect
    - Odpowiedzialność: Konfiguracja repozytorium oraz stworzenie pipeline w GitHub Actions.
    - Główne wyzwanie: Zrozumienie zależności środowiskowych, rozwiązanie ewentualnych problemów buildowych (kompilatory C/C++, Cython) i zapewnienie poprawnego budowania modułu z kodu źródłowego (commita) przed uruchomieniem testów.
 
-2. Jakub Baczyński - Inżynier Testów Funkcjonalnych (ML QA)
+2. [Jakub Baczyński](https://github.com/JakubBaczynskii) - Inżynier Testów Funkcjonalnych (ML QA)
    - Odpowiedzialność: Zaprojektowanie i zaimplementowanie w kodzie od 3 do 5 testów funkcjonalnych. 
    - Główne wyzwanie: Sprawdzenie realnego użycia modułu (np. klasyfikacja, pipeline, metryki) wraz z odpowiednim uzasadnieniem i nazewnictwem.
 
-3. Emilia Wierzbanowska - Inżynier Wydajności (Performance QA)
+3. [Emilia Wierzbanowska](https://github.com/emiliaw1) - Inżynier Wydajności (Performance QA)
    - Odpowiedzialność: Przygotowanie 1-2 prostych testów wydajnościowych.
    - Główne wyzwanie: Pomiar czasu wykonania wybranych operacji (np. trenowania modelu), zapis wyniku do loga oraz proste porównanie wyników w zależności od rozmiaru danych wejściowych.
 
-4. Mykola Mashovets - Analityk Testów / Technical Writer
+4. [Mykola Mashovets](https://github.com/MykMash) - Analityk Testów / Technical Writer
    - Odpowiedzialność: Organizacja dokumentacji projektu oraz struktury katalogów.
    - Główne wyzwanie: Opracowanie dokumentu zawierającego co najmniej 3 scenariusze testów akceptacyjnych (cel, rezultat, kryterium zaliczenia) oraz szczegółowe udokumentowanie procesu budowania modułu ze źródeł.
 
